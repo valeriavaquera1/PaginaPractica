@@ -1,0 +1,212 @@
+/*Animaciones*/
+.mover {
+        width: 100px;
+        height: 100px;
+        color: white;
+        text-align: center;
+        margin-bottom: 10px;
+        animation: moverAnim 3s infinite ease-in-out;
+    }
+
+    .Jinu img{
+        width: 120px;
+        height: 200px;
+        padding: 50px;
+    }
+
+ 
+    .escalar {
+        width: 100px;
+        height: 100px;
+        color: white;
+        text-align: center;
+        margin-bottom: 10px;
+        animation: escalarAnim 3s infinite ease-in-out;
+    }
+
+    .Kirby img{
+        width: 100px;
+        height: 150px;
+        margin-left: 50px;
+        padding: 50px;
+    }
+ 
+    .rotar {
+        width: 100px;
+        height: 100px;
+        color: white;
+        text-align: center;
+        margin-bottom: 10px;
+        animation: rotarAnim 3s infinite linear;
+    }
+
+    .Abby img{
+        width: 120px;
+        height: 150px;
+        margin-left: 50px;
+        padding: 50px;
+    }
+ 
+    .color {
+        width: 100px;
+        height: 100px;
+        background-color: crimson;
+        color: white;
+        text-align: center;
+        margin-bottom: 5px;
+        animation: colorAnim 3s infinite ease-in-out;
+    }
+
+    .Mystery img{
+        width: 120px;
+        height: 200px;
+        margin-left: 50px;
+        padding: 50px;
+    }
+ 
+    /* Keyframes */
+    @keyframes moverAnim {
+        0% {
+            transform: translateX(0);
+        }
+ 
+        100% {
+            transform: translateX(150px);
+        }
+    }
+ 
+    @keyframes escalarAnim {
+        0% {
+            transform: scale(1);
+        }
+ 
+        100% {
+            transform: scale(1.5);
+        }
+    }
+ 
+    @keyframes rotarAnim {
+        0% {
+            transform: rotate(0deg);
+        }
+ 
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+ 
+    @keyframes colorAnim {
+        0% {
+            background-color: rgb(255, 242, 0);
+        }
+ 
+        100% {
+            background-color: rgb(192, 152, 255);
+        }
+    }
+
+    body {
+            margin: 0;
+            padding: 0;
+            background-color: rgba(202, 222, 255, 0.877);
+        }
+
+    h1 {
+        text-align: center;
+        padding: 25px;
+        color: rgb(119, 66, 255);
+        text-shadow: 4px 0px 1px rgba(255, 255, 255, 0.83);
+    }
+
+    h3{
+        text-align: justify;
+        padding: 25px;
+        color: rgb(15, 51, 231);
+    }
+
+    .tabla{
+        text-align: center;
+        padding-left: 550px;
+        padding-right: 20px;
+        margin: 25px;
+        color: aliceblue;
+        background-color: rgb(131, 0, 161);
+    }
+
+    .parrafos{
+      text-align: center;
+      color: aliceblue;
+      padding-left: 20px;
+      padding-right: 20px; 
+      margin-inline-end: 25px; 
+    }
+
+    p{
+        text-align: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        size: 100px;
+    }
+
+    .block {
+            padding: 10px;
+            margin: 5px;
+            width: 25px;
+            height: 25px;
+            display: block;/*Posición haciendo salto de línea*/
+        }
+        
+        .Lata img{
+            width: 150px;
+            height: 225px;
+            margin: 20px;
+            padding-left: 300px;
+            display: block;/*Posición haciendo salto de línea*/
+        }
+        .inline {
+            margin: 5px;
+            display: inline;
+        }
+        
+        .Ramen img{
+            width: 130px;
+            height: 225px;
+            margin: 20px;
+            padding-left: 300px;
+            display: inline;
+        }
+ 
+        .inline-block {
+            padding: 10px;
+            margin: 5px;
+            display: inline-block;
+            width: 100px;
+        }
+
+        .Etiqueta img{
+        width: 300px;
+        height: 200px;
+        display: inline-block;
+        margin-inline-start: 50px;
+        }
+ 
+.otro1 img{
+      width: 75px;
+      height: 60px;
+      position: fixed; /* Requisito para z-index */
+      margin-left: 1140px;
+      top: 20px;
+      left: 20px;
+      z-index: 0;
+    }
+ 
+    .otro2 img{
+      width: 70px;
+      height: 70px;
+      position: fixed;
+      padding-top: 40px;
+      margin-left: 1115px;
+      top: 50px;
+      left: 50px;
+      z-index: 50;
+    }
